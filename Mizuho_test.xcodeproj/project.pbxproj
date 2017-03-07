@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3086670D5B2611FD4F377B26 /* Pods_Mizuho_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DBE456B2A9B8386A3DE199 /* Pods_Mizuho_test.framework */; };
 		671A672A1E6CCB3600910AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671A67291E6CCB3600910AF8 /* AppDelegate.swift */; };
 		671A672C1E6CCB3600910AF8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671A672B1E6CCB3600910AF8 /* FirstViewController.swift */; };
 		671A672E1E6CCB3600910AF8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671A672D1E6CCB3600910AF8 /* SecondViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		652F3612C58216FB3B244424 /* Pods-Mizuho_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mizuho_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mizuho_test/Pods-Mizuho_test.release.xcconfig"; sourceTree = "<group>"; };
 		671A67261E6CCB3600910AF8 /* Mizuho_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mizuho_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		671A67291E6CCB3600910AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		671A672B1E6CCB3600910AF8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		671A67371E6CCB3600910AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671A673D1E6CD03800910AF8 /* StockMemos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockMemos.swift; sourceTree = "<group>"; };
 		671A673F1E6CD06400910AF8 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		80DBE456B2A9B8386A3DE199 /* Pods_Mizuho_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mizuho_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EE1738E04B12953C60B78F /* Pods-Mizuho_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mizuho_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mizuho_test/Pods-Mizuho_test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3086670D5B2611FD4F377B26 /* Pods_Mizuho_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +51,8 @@
 			children = (
 				671A67281E6CCB3600910AF8 /* Mizuho_test */,
 				671A67271E6CCB3600910AF8 /* Products */,
+				D2C15F35949CF817069EE8D4 /* Pods */,
+				687D22F510CBB756BDCFCB54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +80,23 @@
 			path = Mizuho_test;
 			sourceTree = "<group>";
 		};
+		687D22F510CBB756BDCFCB54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80DBE456B2A9B8386A3DE199 /* Pods_Mizuho_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C15F35949CF817069EE8D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90EE1738E04B12953C60B78F /* Pods-Mizuho_test.debug.xcconfig */,
+				652F3612C58216FB3B244424 /* Pods-Mizuho_test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 671A673A1E6CCB3600910AF8 /* Build configuration list for PBXNativeTarget "Mizuho_test" */;
 			buildPhases = (
+				8752CA6BA5E7324A86294C2D /* [CP] Check Pods Manifest.lock */,
 				671A67221E6CCB3600910AF8 /* Sources */,
 				671A67231E6CCB3600910AF8 /* Frameworks */,
 				671A67241E6CCB3600910AF8 /* Resources */,
+				0B3A96BD1B6E51C7FF490F0E /* [CP] Embed Pods Frameworks */,
+				FB655485DD080B31176949CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,6 +166,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B3A96BD1B6E51C7FF490F0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mizuho_test/Pods-Mizuho_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8752CA6BA5E7324A86294C2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB655485DD080B31176949CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mizuho_test/Pods-Mizuho_test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		671A67221E6CCB3600910AF8 /* Sources */ = {
@@ -270,6 +345,7 @@
 		};
 		671A673B1E6CCB3600910AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EE1738E04B12953C60B78F /* Pods-Mizuho_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mizuho_test/Info.plist;
@@ -282,6 +358,7 @@
 		};
 		671A673C1E6CCB3600910AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652F3612C58216FB3B244424 /* Pods-Mizuho_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mizuho_test/Info.plist;
