@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3086670D5B2611FD4F377B26 /* Pods_Mizuho_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DBE456B2A9B8386A3DE199 /* Pods_Mizuho_test.framework */; };
 		671A672A1E6CCB3600910AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671A67291E6CCB3600910AF8 /* AppDelegate.swift */; };
 		671A672C1E6CCB3600910AF8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671A672B1E6CCB3600910AF8 /* FirstViewController.swift */; };
 		671A672E1E6CCB3600910AF8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671A672D1E6CCB3600910AF8 /* SecondViewController.swift */; };
@@ -30,7 +29,6 @@
 		671A67371E6CCB3600910AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671A673D1E6CD03800910AF8 /* StockMemos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockMemos.swift; sourceTree = "<group>"; };
 		671A673F1E6CD06400910AF8 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
-		80DBE456B2A9B8386A3DE199 /* Pods_Mizuho_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mizuho_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EE1738E04B12953C60B78F /* Pods-Mizuho_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mizuho_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mizuho_test/Pods-Mizuho_test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3086670D5B2611FD4F377B26 /* Pods_Mizuho_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +80,6 @@
 		687D22F510CBB756BDCFCB54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				80DBE456B2A9B8386A3DE199 /* Pods_Mizuho_test.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -348,6 +344,7 @@
 			baseConfigurationReference = 90EE1738E04B12953C60B78F /* Pods-Mizuho_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Mizuho_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mizuhocompany.Mizuho-test";
@@ -361,6 +358,7 @@
 			baseConfigurationReference = 652F3612C58216FB3B244424 /* Pods-Mizuho_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Mizuho_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mizuhocompany.Mizuho-test";
@@ -388,6 +386,7 @@
 				671A673C1E6CCB3600910AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
